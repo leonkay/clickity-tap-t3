@@ -11,7 +11,7 @@ export function CreateTapSpace() {
 
   const createRoom = api.room.create.useMutation({
     onSuccess: () => {
-      router.push(`tap-room/${code}`);
+      router.push(`tap-space/${code}`);
     }
   })
   return (
